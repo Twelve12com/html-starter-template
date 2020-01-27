@@ -1,0 +1,28 @@
+/*--*--*--*--*--*--*--*--*--*--*-*--*--*--*--*--*--*--*--*
+
+	* ------- Header ------- *
+
+-*--*--*--*--*--*--*--*--*--*--*--*--*--*--*--*--*--*--*--*/
+
+header {
+	background-color: $header-bg-color;
+
+	& > .wrap {
+		min-height: $header-height;
+
+		& > .col {
+			color: $color-lightest;
+
+			a {
+				color: $color-lightest;
+				
+				&:hover {
+					color: $color-light;
+				}
+
+			}
+
+		}
+	}
+
+}

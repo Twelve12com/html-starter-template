@@ -1,0 +1,32 @@
+{
+  "name": "twelve12",
+  "version": "4.0.1",
+  "description": "Twelve12 Development Packages",
+  "main": "gulpfile.js",
+  "dependencies": {},
+  "devDependencies": {
+    "gulp": "latest",
+    "gulp-autoprefixer": "latest",
+    "gulp-cli": "latest",
+    "gulp-concat": "^2.6.1",
+    "gulp-imagemin": "^7.1.0",
+    "gulp-plumber": "latest",
+    "gulp-sass": "latest",
+    "gulp-sass-lint": "latest",
+    "gulp-sourcemaps": "latest",
+    "php-include-html": "^1.4.4",
+    "pump": "^3.0.0"
+  },
+  "keywords": [],
+  "author": "Twelve12",
+  "license": "ISC",
+  "scripts": {
+    "build": "npm install --unsafe-perm=true --allow-root && rm -f style.css && rm -f style.css.map && gulp build",
+    "start": "rm -f style.css && rm -f style.css.map && gulp"
+  },
+  "browserslist": [
+    "ff > 2",
+    "> 2%",
+    "ie 8"
+  ]
+}

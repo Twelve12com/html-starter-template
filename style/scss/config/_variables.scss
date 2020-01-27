@@ -1,0 +1,128 @@
+/*--*--*--*--*--*--*--*--*--*--*-*--*--*--*--*--*--*--*--*
+
+	* ------- Colors ------- *
+
+-*--*--*--*--*--*--*--*--*--*--*--*--*--*--*--*--*--*--*--*/
+
+// Dark Colors
+$color-dark: #868686;
+$color-darker: #333333;
+$color-darkest: #000000;
+
+// Light Colors
+$color-light: #7B7B7B;
+$color-lighter: #EEEEEE;
+$color-lightest: #FFFFFF;
+
+// Other Colors
+$bg-color: $color-lightest;
+$header-bg-color: $color-darkest;
+$footer-bg-color: $color-darker;
+// Add as many as you need...
+
+
+
+/*--*--*--*--*--*--*--*--*--*--*-*--*--*--*--*--*--*--*--*
+
+	* ------- Sizes ------- *
+
+-*--*--*--*--*--*--*--*--*--*--*--*--*--*--*--*--*--*--*--*/
+
+$header-height: 120px;
+$footer-height: 80px;
+$container-width: 1234px;
+$finger-size: 44px; // Buttons and inputs sizes
+
+
+
+/*--*--*--*--*--*--*--*--*--*--*-*--*--*--*--*--*--*--*--*
+
+	* ------- Typography ------- *
+
+-*--*--*--*--*--*--*--*--*--*--*--*--*--*--*--*--*--*--*--*/
+
+$primary-font-family: 'Roboto', sans-serif;
+$secondary-font-family: 'Open Sans', serif;
+
+$font-size-smaller: 12px;
+$font-size-small: 14px;
+$font-size: 16px;
+$font-size-large: 18px;
+$font-size-larger: 20px;
+$font-size-largest: 24px;
+
+
+
+/*--*--*--*--*--*--*--*--*--*--*-*--*--*--*--*--*--*--*--*
+
+	* ------- Titles ------- *
+
+-*--*--*--*--*--*--*--*--*--*--*--*--*--*--*--*--*--*--*--*/
+
+$title-color: $color-darkest;
+$title-font-family: $secondary-font-family;
+$title-font-size: $font-size-larger;
+$title-line-height: normal;
+$title-font-weight: bold;
+$title-font: $title-font-weight #{$title-font-size"/"$title-line-height} $title-font-family;
+
+
+
+/*--*--*--*--*--*--*--*--*--*--*-*--*--*--*--*--*--*--*--*
+
+	* ------- Texts ------- *
+
+-*--*--*--*--*--*--*--*--*--*--*--*--*--*--*--*--*--*--*--*/
+
+$text-color: $color-darkest;
+$text-font-family: $primary-font-family;
+$text-font-size: $font-size;
+$text-line-height: normal;
+$text-font-weight: normal;
+$text-font: $text-font-weight #{$text-font-size"/"$text-line-height} $text-font-family;
+
+
+
+/*--*--*--*--*--*--*--*--*--*--*-*--*--*--*--*--*--*--*--*
+
+	* ------- Borders ------- *
+
+-*--*--*--*--*--*--*--*--*--*--*--*--*--*--*--*--*--*--*--*/
+
+$border-color: $color-dark;
+$border-width: 1px;
+$border-radius: 3px;
+
+
+
+/*--*--*--*--*--*--*--*--*--*--*-*--*--*--*--*--*--*--*--*
+
+	* ------- Buttons ------- *
+
+-*--*--*--*--*--*--*--*--*--*--*--*--*--*--*--*--*--*--*--*/
+
+$button-bg-color: $color-dark;
+$button-text-color: $color-lightest;
+
+$button-border-color: $border-color;
+$button-border-width: $border-width;
+$button-border-radius: $border-radius;
+
+$button-font: $text-font-weight #{$text-font-size"/"$text-line-height} $text-font-family;
+
+
+
+/*--*--*--*--*--*--*--*--*--*--*-*--*--*--*--*--*--*--*--*
+
+	* ------- Inputs ------- *
+
+-*--*--*--*--*--*--*--*--*--*--*--*--*--*--*--*--*--*--*--*/
+
+$input-bg-color: $color-lightest;
+$input-text-color: $color-darkest;
+
+$input-border-color: $border-color;
+$input-border-width: $border-width;
+$input-border-radius: $border-radius;
+
+$input-font: $text-font-weight #{$text-font-size"/"$text-line-height} $text-font-family;
