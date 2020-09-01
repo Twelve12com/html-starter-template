@@ -65,6 +65,7 @@ gulp.task('images', function () {
 
 gulp.task('watch', function () {
 	gulp.watch('./*.html', gulp.series('php'));
+	gulp.watch('./*.php', gulp.series('php'));
 
 	gulp.watch('./style/style.scss', gulp.series('styles'));
 	gulp.watch('./style/scss/**/*.scss', gulp.series('styles'));
