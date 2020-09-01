@@ -80,5 +80,5 @@ gulp.task('watch', function () {
 // BUILD TASKS
 // ------------
 
-gulp.task('default', gulp.series('styles', 'watch'));
-gulp.task('build', gulp.series('styles'));
+gulp.task('default', gulp.series('styles', 'scripts', 'images', 'php', 'watch'));
+gulp.task('build', gulp.series('styles', 'scripts', 'images', 'php'));
